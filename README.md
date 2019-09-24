@@ -45,6 +45,9 @@ Jogo de Tênis
 
 * Novo framework para testes Javascript - Jest
 * Testar a paciência e respeitar as limitações do próximo
+* Botar em prática o TDD
+* Aprender a ter paciência, respeitar o código dos outros
+* Networking com pessoas que buscam o mesmo propósito
 
 #### Melhorias ( processo do Dojo ):
 
@@ -52,6 +55,8 @@ Jogo de Tênis
 * Melhorar a descrição na plataforma Meetup: descrever melhor as tecnologias mais detalhadamente.
 * Snacks!
 * Imprimir o problema
+* Criar um passo a passo para resolver o puzzle
+* Criar estórias para o Problema
 
 #### Brainstorm:
    * Continuar o puzzle no próximo dojo
