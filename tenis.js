@@ -34,10 +34,25 @@ let getPontuacao = (jogador) => {
     }
 } 
 
+let setVantagem = (jogador , vantagem) =>{
+    jogador.vantagem = vantagem;
+} 
+
 let validarEmpate = (jogador1, jogador2) =>{
     if(jogador1.score === 40 && jogador2.score === 40){
         return 'Empate'
     }
+}
+
+let validarVantagem = (jogador1, jogador2) => {
+    let pontuacaoJogador1 = getPontuacao(jogador1);
+    let pontuacaoJogador2 = getPontuacao(jogador2);
+
+    if (pontuacaoJogador1 > pontuacaoJogador2){
+        
+        return jogador1.nome;
+    } 
+        return jogador2.nome;
 }
 
 
@@ -46,3 +61,5 @@ module.exports.getScore = getScore;
 module.exports.getPontuacao = getPontuacao;
 module.exports.getJogador = getJogador;
 module.exports.validarEmpate = validarEmpate;
+module.exports.validarVantagem = validarVantagem;
+module.exports.setVantagem = setVantagem;

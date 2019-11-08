@@ -3,6 +3,8 @@ const getScore = require('./tenis').getScore;
 const getPontuacao = require('./tenis').getPontuacao;
 const getJogador = require('./tenis').getJogador;
 const validarEmpate = require('./tenis').validarEmpate;
+const validarVantagem = require('./tenis').validarVantagem;
+const setVantagem = require('./tenis').setVantagem;
 
 test('Retorna dois jogadores', () => {  
     expect(getJogadores()).toBe(2);
@@ -39,4 +41,17 @@ test('Verificar empate', () =>{
 
     expect(validarEmpate(jogador1, jogador2)).toBe('Empate');
 
+});
+
+test('Verificar vantagem', () =>{
+    let jogador1 = getJogador(0);
+    let jogador2 = getJogador(1);
+    
+    jogador1.score = 40;
+    jogador1.vantagem = 1;
+    jogador2.score = 40;
+
+    // setVantagem(jogador1, 1);
+
+    expect(validarVantagem(jogador1, jogador2)).toBe(jogador1.nome);
 });
