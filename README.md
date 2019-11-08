@@ -38,8 +38,11 @@ Jogo de Tênis
 
 * Novo framework para testes Javascript - Jest
 * Existência do Autosave no VS Code : [VS Code - Tips and Tricks](https://code.visualstudio.com/docs/getstarted/tips-and-tricks)
-* Usar export nas funções (NodeJS)
+* Sintaxe do NodeJS
 * Ter paciência e respeitar as limitações do próximo
+* Lidar com código em andamento
+* Entendimento de outras formas de pensar
+* Testes unitários em JS
 
 #### Pontos Positivos:
 
@@ -48,6 +51,9 @@ Jogo de Tênis
 * Botar em prática o TDD
 * Aprender a ter paciência, respeitar o código dos outros
 * Networking com pessoas que buscam o mesmo propósito
+* O ambiente muito bom ( estrutura da GFT )
+* A dinâmica de Dojo muito interessante
+* Poucas pessoas nos Dojos, torna-se mais dinâmico
 
 #### Melhorias ( processo do Dojo ):
 
@@ -57,6 +63,10 @@ Jogo de Tênis
 * Imprimir o problema
 * Criar um passo a passo para resolver o puzzle
 * Criar estórias para o Problema
+* Deixar o timer visível para todos
+* Tempo para passar a idéia para o próximo
+* Uma breve explicação sobre a dinâmica usada nos Dojos
+* No caso de Dojos em andamento, colocar o link do repositório na descrição do evento
 
 #### Brainstorm:
    * Continuar o puzzle no próximo dojo
